@@ -1,14 +1,14 @@
 GIT
   remote: git://github.com/bblimke/webmock.git
-  revision: 94500e64df988aadd2b81144c69044481bb19b37
+  revision: 0af60fd931106453e70dd9970a615f6e7ec98808
   specs:
-    webmock (1.11.0)
+    webmock (1.12.0)
       addressable (>= 2.2.7)
       crack (>= 0.3.2)
 
 GIT
   remote: git://github.com/sporkmonger/addressable.git
-  revision: f994d5e06929685132c0daec76de6e3820c73355
+  revision: 66d77341fd04d12ec758be341b68dd3d5927e5e3
   specs:
     addressable (2.3.4)
 

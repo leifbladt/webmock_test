@@ -1,16 +1,8 @@
 GIT
-  remote: git://github.com/bblimke/webmock.git
-  revision: 0af60fd931106453e70dd9970a615f6e7ec98808
-  specs:
-    webmock (1.12.0)
-      addressable (>= 2.2.7)
-      crack (>= 0.3.2)
-
-GIT
   remote: git://github.com/sporkmonger/addressable.git
-  revision: 66d77341fd04d12ec758be341b68dd3d5927e5e3
+  revision: 0c60470633503c37f26429016bf18837641cb516
   specs:
-    addressable (2.3.4)
+    addressable (2.3.5)
 
 GEM
   remote: https://rubygems.org/
@@ -25,6 +17,9 @@ GEM
     debugger-linecache (1.2.0)
     debugger-ruby_core_source (1.2.2)
     safe_yaml (0.9.3)
+    webmock (1.12.2)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
 
 PLATFORMS
   ruby
@@ -32,4 +27,4 @@ PLATFORMS
 DEPENDENCIES
   addressable!
   debugger
-  webmock!
+  webmock (= 1.12.2)
